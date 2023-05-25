@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores basicos</title>
+    <style>
+        /*selector 1
+        {
+            propiedad: valor
+        } 
+         */ /*Selector Universal*/
+         *{
+        margin: 0;
+        /*Selector Etiquetas*/
+         }
+        div, p{
+            background-color: rgb(0, 233, 121);
+    }
+    /*Selector de id*/
+    /*Atributo id (#)*/
+    .yellow{
+        background-color: rgb(0, 255, 208);
+    }
+    #cuadro{
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        background-color: rgb(0, 255, 208);
+    }
+    </style>
+</head>
+<body>
+    <div class="Yellow" id="cuadro" style="color:rgb(255, 255, 255)">Este es un div</div>
+    <div>Este es un div</div>
+    <div>Este es un div</div>
+    <p class="yellow" id="cuadro" style="color:rgb(255, 255, 255)">ESte es un parrafo</p>
+    <p>Este es un parrafo</p>
+    <p>Este es un parrafo</p>
+</body>
+</html>
