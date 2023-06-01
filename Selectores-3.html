@@ -18,16 +18,25 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: blue;
+            background-color: orange;
             margin: 20px;
             color: aliceblue;
         }
         .item:hover {
-            background-color: aquamarine;
+            background-color: aqua;
             color: black;
         }
-        .item::after{
+        .item::first-child{
             content: "🥑";
+        }
+        p:first-letter{
+            color: aquamarine;
+        }
+        .item:first-child{
+            border: 1px solid black;
+        }
+        .item:nth-child(even){
+            border-radius: 50%;
         }
     </style>
 </head>
